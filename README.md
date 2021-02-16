@@ -25,7 +25,7 @@ Now we can set about changing the values from Faker if you want. Go to https://f
 
 We can now add the testing library Behave, along with Selenium for and the appropriate web drivers for your system, which you can find at https://selenium-python.readthedocs.io/installation.html#drivers 
 
-If you're on a Mac, then you will need to remove the chrome driver from quarentine with the command
+If you're on a Mac, then you will need to remove the chrome driver from quarantine with the command
 
         xattr -d com.apple.quarantine <name-of-executable>
 
@@ -33,6 +33,7 @@ as found and detailed at https://stackoverflow.com/questions/60362018/macos-cata
 
 You might want to look at the documentation for Behave https://behave.readthedocs.io/en/latest/ 
 You should look at Selenium documentation for [navigating web pages] (https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webdriver.html#module-selenium.webdriver.remote.webdriver)
+
         pip install flask
         pip install behave
         pip install selenium
